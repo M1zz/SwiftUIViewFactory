@@ -35,16 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A533203826A00E800080FC5A /* CarrouselList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrouselList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A533203826A00E800080FC5A /* CarouselList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A533203B26A00E800080FC5A /* CarrouselListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrouselListApp.swift; sourceTree = "<group>"; };
 		A533203D26A00E800080FC5A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A533203F26A00E810080FC5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A533204226A00E810080FC5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A533204426A00E810080FC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A533204926A00E810080FC5A /* CarrouselListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrouselListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A533204926A00E810080FC5A /* CarouselListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A533204D26A00E810080FC5A /* CarrouselListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrouselListTests.swift; sourceTree = "<group>"; };
 		A533204F26A00E810080FC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A533205426A00E810080FC5A /* CarrouselListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrouselListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A533205426A00E810080FC5A /* CarouselListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A533205826A00E810080FC5A /* CarrouselListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrouselListUITests.swift; sourceTree = "<group>"; };
 		A533205A26A00E810080FC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A533206626A00F020080FC5A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		A533202F26A00E800080FC5A = {
 			isa = PBXGroup;
 			children = (
-				A533203A26A00E800080FC5A /* CarrouselList */,
+				A533203A26A00E800080FC5A /* CarouselList */,
 				A533204C26A00E810080FC5A /* CarrouselListTests */,
 				A533205726A00E810080FC5A /* CarrouselListUITests */,
 				A533203926A00E800080FC5A /* Products */,
@@ -89,14 +89,14 @@
 		A533203926A00E800080FC5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A533203826A00E800080FC5A /* CarrouselList.app */,
-				A533204926A00E810080FC5A /* CarrouselListTests.xctest */,
-				A533205426A00E810080FC5A /* CarrouselListUITests.xctest */,
+				A533203826A00E800080FC5A /* CarouselList.app */,
+				A533204926A00E810080FC5A /* CarouselListTests.xctest */,
+				A533205426A00E810080FC5A /* CarouselListUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A533203A26A00E800080FC5A /* CarrouselList */ = {
+		A533203A26A00E800080FC5A /* CarouselList */ = {
 			isa = PBXGroup;
 			children = (
 				A533206826A0103E0080FC5A /* Model */,
@@ -107,7 +107,7 @@
 				A533204426A00E810080FC5A /* Info.plist */,
 				A533204126A00E810080FC5A /* Preview Content */,
 			);
-			path = CarrouselList;
+			path = CarouselList;
 			sourceTree = "<group>";
 		};
 		A533204126A00E810080FC5A /* Preview Content */ = {
@@ -147,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A533203726A00E800080FC5A /* CarrouselList */ = {
+		A533203726A00E800080FC5A /* CarouselList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A533205D26A00E810080FC5A /* Build configuration list for PBXNativeTarget "CarrouselList" */;
+			buildConfigurationList = A533205D26A00E810080FC5A /* Build configuration list for PBXNativeTarget "CarouselList" */;
 			buildPhases = (
 				A533203426A00E800080FC5A /* Sources */,
 				A533203526A00E800080FC5A /* Frameworks */,
@@ -159,14 +159,14 @@
 			);
 			dependencies = (
 			);
-			name = CarrouselList;
+			name = CarouselList;
 			productName = CarrouselList;
-			productReference = A533203826A00E800080FC5A /* CarrouselList.app */;
+			productReference = A533203826A00E800080FC5A /* CarouselList.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A533204826A00E810080FC5A /* CarrouselListTests */ = {
+		A533204826A00E810080FC5A /* CarouselListTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A533206026A00E810080FC5A /* Build configuration list for PBXNativeTarget "CarrouselListTests" */;
+			buildConfigurationList = A533206026A00E810080FC5A /* Build configuration list for PBXNativeTarget "CarouselListTests" */;
 			buildPhases = (
 				A533204526A00E810080FC5A /* Sources */,
 				A533204626A00E810080FC5A /* Frameworks */,
@@ -177,14 +177,14 @@
 			dependencies = (
 				A533204B26A00E810080FC5A /* PBXTargetDependency */,
 			);
-			name = CarrouselListTests;
+			name = CarouselListTests;
 			productName = CarrouselListTests;
-			productReference = A533204926A00E810080FC5A /* CarrouselListTests.xctest */;
+			productReference = A533204926A00E810080FC5A /* CarouselListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A533205326A00E810080FC5A /* CarrouselListUITests */ = {
+		A533205326A00E810080FC5A /* CarouselListUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A533206326A00E810080FC5A /* Build configuration list for PBXNativeTarget "CarrouselListUITests" */;
+			buildConfigurationList = A533206326A00E810080FC5A /* Build configuration list for PBXNativeTarget "CarouselListUITests" */;
 			buildPhases = (
 				A533205026A00E810080FC5A /* Sources */,
 				A533205126A00E810080FC5A /* Frameworks */,
@@ -195,9 +195,9 @@
 			dependencies = (
 				A533205626A00E810080FC5A /* PBXTargetDependency */,
 			);
-			name = CarrouselListUITests;
+			name = CarouselListUITests;
 			productName = CarrouselListUITests;
-			productReference = A533205426A00E810080FC5A /* CarrouselListUITests.xctest */;
+			productReference = A533205426A00E810080FC5A /* CarouselListUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A533203326A00E800080FC5A /* Build configuration list for PBXProject "CarrouselList" */;
+			buildConfigurationList = A533203326A00E800080FC5A /* Build configuration list for PBXProject "CarouselList" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A533203726A00E800080FC5A /* CarrouselList */,
-				A533204826A00E810080FC5A /* CarrouselListTests */,
-				A533205326A00E810080FC5A /* CarrouselListUITests */,
+				A533203726A00E800080FC5A /* CarouselList */,
+				A533204826A00E810080FC5A /* CarouselListTests */,
+				A533205326A00E810080FC5A /* CarouselListUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -301,12 +301,12 @@
 /* Begin PBXTargetDependency section */
 		A533204B26A00E810080FC5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A533203726A00E800080FC5A /* CarrouselList */;
+			target = A533203726A00E800080FC5A /* CarouselList */;
 			targetProxy = A533204A26A00E810080FC5A /* PBXContainerItemProxy */;
 		};
 		A533205626A00E810080FC5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A533203726A00E800080FC5A /* CarrouselList */;
+			target = A533203726A00E800080FC5A /* CarouselList */;
 			targetProxy = A533205526A00E810080FC5A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,10 +434,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CarrouselList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CarouselList/Preview Content\"";
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CarrouselList/Info.plist;
+				INFOPLIST_FILE = CarouselList/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,10 +456,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CarrouselList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CarouselList/Preview Content\"";
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CarrouselList/Info.plist;
+				INFOPLIST_FILE = CarouselList/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarrouselList.app/CarrouselList";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarouselList.app/CarouselList";
 			};
 			name = Debug;
 		};
@@ -512,7 +512,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarrouselList.app/CarrouselList";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarouselList.app/CarouselList";
 			};
 			name = Release;
 		};
@@ -559,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A533203326A00E800080FC5A /* Build configuration list for PBXProject "CarrouselList" */ = {
+		A533203326A00E800080FC5A /* Build configuration list for PBXProject "CarouselList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A533205B26A00E810080FC5A /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A533205D26A00E810080FC5A /* Build configuration list for PBXNativeTarget "CarrouselList" */ = {
+		A533205D26A00E810080FC5A /* Build configuration list for PBXNativeTarget "CarouselList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A533205E26A00E810080FC5A /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A533206026A00E810080FC5A /* Build configuration list for PBXNativeTarget "CarrouselListTests" */ = {
+		A533206026A00E810080FC5A /* Build configuration list for PBXNativeTarget "CarouselListTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A533206126A00E810080FC5A /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A533206326A00E810080FC5A /* Build configuration list for PBXNativeTarget "CarrouselListUITests" */ = {
+		A533206326A00E810080FC5A /* Build configuration list for PBXNativeTarget "CarouselListUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A533206426A00E810080FC5A /* Debug */,
