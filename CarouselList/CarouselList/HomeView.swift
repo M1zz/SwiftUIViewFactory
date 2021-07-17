@@ -13,6 +13,7 @@ struct HomeView: View {
     @State var columns = Array(repeating: GridItem(.flexible(), spacing: 15),
                                count: 2)
     @State var isSquare: Bool = false
+    @State var games:[Game]? = []
     
     var body: some View {
         ScrollView(.vertical) {
@@ -36,13 +37,15 @@ struct HomeView: View {
                     .padding(.top, 20)
                 
                 TabView(selection: $index) {
-                    ForEach(0...5, id: \.self) { index in
-                        Image("thumbnail")
-                            .resizable()
-                            .frame(height: self.index == index ? 230 : 180)
-                            .cornerRadius(15)
-                            .padding(.horizontal)
-                            .tag(index)
+                    ForEach(0..<(games?.count ?? 0), id: \.self) { index in
+                        if games?.count ?? 0 > 0 {
+                            GameRemoteImage(urlString: games?[index].thumbnail ?? "")
+                                .frame(height: self.index == index ? 230 : 180)
+                                .cornerRadius(15)
+                                .padding(.horizontal)
+                                .tag(index)
+                        }
+                        
                     }
                 }
                 .frame(height: 230)
@@ -76,7 +79,7 @@ struct HomeView: View {
                 .padding(.top, 25)
                 
                 LazyVGrid(columns: columns, spacing: 25) {
-                    ForEach(MockData.sampleGames) { game in
+                    ForEach(games ?? []) { game in
                         GridView(game: game, columns: $columns)
                     }
                 }
@@ -86,6 +89,18 @@ struct HomeView: View {
             .padding(.vertical)
         }
         .background(Color.black.opacity(0.05).edgesIgnoringSafeArea(.all))
+        .onAppear {
+            getGames()
+        }
+    }
+    
+    private func getGames() {
+        NetworkManager.shared.getGames { (games, errorMessage) in
+            DispatchQueue.main.async {
+                self.games = games
+                print(games, errorMessage)
+            }
+        }
     }
 }
 

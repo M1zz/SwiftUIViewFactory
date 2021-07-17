@@ -15,6 +15,8 @@
 		A533205926A00E810080FC5A /* CarrouselListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A533205826A00E810080FC5A /* CarrouselListUITests.swift */; };
 		A533206726A00F020080FC5A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A533206626A00F020080FC5A /* Game.swift */; };
 		A533206A26A02F640080FC5A /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A533206926A02F640080FC5A /* GridView.swift */; };
+		A5FBAD2826A318E80037B3F6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FBAD2726A318E80037B3F6 /* NetworkManager.swift */; };
+		A5FBAD2A26A31E8E0037B3F6 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FBAD2926A31E8E0037B3F6 /* ImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A533205A26A00E810080FC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A533206626A00F020080FC5A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		A533206926A02F640080FC5A /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		A5FBAD2726A318E80037B3F6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A5FBAD2926A31E8E0037B3F6 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		A533203A26A00E800080FC5A /* CarouselList */ = {
 			isa = PBXGroup;
 			children = (
+				A5FBAD2626A318DD0037B3F6 /* Managers */,
 				A533206826A0103E0080FC5A /* Model */,
 				A533203B26A00E800080FC5A /* CarrouselListApp.swift */,
 				A533203D26A00E800080FC5A /* HomeView.swift */,
@@ -106,6 +111,7 @@
 				A533203F26A00E810080FC5A /* Assets.xcassets */,
 				A533204426A00E810080FC5A /* Info.plist */,
 				A533204126A00E810080FC5A /* Preview Content */,
+				A5FBAD2926A31E8E0037B3F6 /* ImageLoader.swift */,
 			);
 			path = CarouselList;
 			sourceTree = "<group>";
@@ -142,6 +148,14 @@
 				A533206626A00F020080FC5A /* Game.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A5FBAD2626A318DD0037B3F6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A5FBAD2726A318E80037B3F6 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +289,8 @@
 			files = (
 				A533203E26A00E800080FC5A /* HomeView.swift in Sources */,
 				A533206726A00F020080FC5A /* Game.swift in Sources */,
+				A5FBAD2A26A31E8E0037B3F6 /* ImageLoader.swift in Sources */,
+				A5FBAD2826A318E80037B3F6 /* NetworkManager.swift in Sources */,
 				A533206A26A02F640080FC5A /* GridView.swift in Sources */,
 				A533203C26A00E800080FC5A /* CarrouselListApp.swift in Sources */,
 			);

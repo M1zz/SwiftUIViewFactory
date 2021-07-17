@@ -20,8 +20,7 @@ struct GridView: View {
                 VStack(spacing: 15) {
                     ZStack(alignment: Alignment(horizontal: .trailing,
                                                 vertical: .top)) {
-                        Image("thumbnail")
-                            .resizable()
+                        GameRemoteImage(urlString: game.thumbnail)
                             .aspectRatio(contentMode: .fill)
                             .frame(width: (UIScreen.main.bounds.width - 45) / 2,
                                    height: 250)
