@@ -21,9 +21,10 @@ struct GridView: View {
                     ZStack(alignment: Alignment(horizontal: .trailing,
                                                 vertical: .top)) {
                         GameRemoteImage(urlString: game.thumbnail)
-                            .aspectRatio(contentMode: .fill)
+                            
                             .frame(width: (UIScreen.main.bounds.width - 45) / 2,
                                    height: 250)
+                            
                             .cornerRadius(15)
                         
                         Button {
@@ -88,7 +89,7 @@ struct GridView: View {
                         HStack(spacing: 10) {
                             ForEach(1...5, id: \.self) { rating in
                                 Image(systemName: "star.fill")
-                                    .foregroundColor(game.rating >= rating ? .yellow : .gray)
+                                    .foregroundColor(game.rating ?? 0 >= rating ? .yellow : .gray)
                                 
                             }
                             Spacer(minLength: 0)

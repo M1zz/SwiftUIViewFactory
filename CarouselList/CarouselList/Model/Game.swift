@@ -21,7 +21,7 @@ struct Game: Decodable, Identifiable {
     let releaseDate: String
     let freetogameProfileUrl: String
     var isLiked: Bool? = false
-    var rating: Int! = 0
+    var rating: Int? = 0
 }
 
 struct MockData {
