@@ -5,31 +5,51 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
-         <BreakpointContent
-            uuid = "5F02AEF0-DBD6-4EE0-B223-E3AC3D29FCED"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            breakpointStackSelectionBehavior = "1"
-            scope = "1"
-            stopOnStyle = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "326ABB10-AEDF-497A-8EE3-95550E079176"
+            uuid = "5C46C32F-981E-425C-B698-07C9F339120B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CarouselList/Managers/NetworkManager.swift"
+            filePath = "CarouselList/Screens/GridView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "getGames(completed:)"
-            landmarkType = "7">
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "5C46C32F-981E-425C-B698-07C9F339120B - 4da6b3bc70ceb45d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.fullScreenCover&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.fullScreenCover&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in CarouselList.GridView.body.getter : some"
+                  moduleName = "CarouselList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hyunho.lee/Documents/workspace/git/SwiftUIViewFactory/CarouselList/CarouselList/Screens/GridView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "2040">
+               </Location>
+               <Location
+                  uuid = "5C46C32F-981E-425C-B698-07C9F339120B - e2e0e50178adb1d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; CarouselList.SafariView in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.fullScreenCover&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.fullScreenCover&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in CarouselList.GridView.body.getter : some"
+                  moduleName = "CarouselList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hyunho.lee/Documents/workspace/git/SwiftUIViewFactory/CarouselList/CarouselList/Screens/GridView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "712">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -13,6 +13,7 @@ struct GridView: View {
     @Binding var columns: [GridItem]
     @Namespace var namespace
     @State var isLiked: Bool = false
+    @State var isShowingSafariView = false
     
     var body: some View {
         VStack {
@@ -46,7 +47,7 @@ struct GridView: View {
                         .matchedGeometryEffect(id: "title", in: namespace)
                     
                     Button {
-                        
+                        isShowingSafariView = true
                     } label : {
                         Text("Read more")
                             .foregroundColor(.white)
@@ -57,15 +58,18 @@ struct GridView: View {
                     }
                     .matchedGeometryEffect(id: "more", in: namespace)
                 }
+                .fullScreenCover(isPresented: $isShowingSafariView, content: {
+                    SafariView(url: URL(string: game.gameUrl) ?? URL(string: "https://www.freetogame.com/")!)
+                })
             } else {
                 HStack(spacing: 15) {
                     ZStack(alignment: Alignment(horizontal: .trailing,
                                                 vertical: .top)) {
-                        Image("thumbnail")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
+                        GameRemoteImage(urlString: game.thumbnail)
+                            
                             .frame(width: (UIScreen.main.bounds.width - 45) / 2,
                                    height: 250)
+                            
                             .cornerRadius(15)
                             
                         Button {
@@ -111,6 +115,9 @@ struct GridView: View {
                 .padding(.trailing)
                 .background(Color.white)
                 .cornerRadius(15)
+                .fullScreenCover(isPresented: $isShowingSafariView, content: {
+                    SafariView(url: URL(string: game.gameUrl) ?? URL(string: "https://www.freetogame.com/")!)
+                })
             }
             
         }

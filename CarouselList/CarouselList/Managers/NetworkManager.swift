@@ -7,6 +7,13 @@
 
 import UIKit
 
+enum NetworkError: Error {
+    case invalidURL
+    case serverError
+    case invalidResponse
+    case invalidData
+}
+
 final class NetworkManager {
     
     static let shared = NetworkManager()
